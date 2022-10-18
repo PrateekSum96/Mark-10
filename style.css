@@ -1,20 +1,48 @@
-:root{
-    --primary-color:#32f00c;
+:root {
+  --primary-color: rgb(32, 128, 96);
 }
-.container{
-    text-align: center;
-    margin: 4rem auto 7rem;
+.container {
+  text-align: center;
+  margin: 4rem auto 7rem;
 }
-.heading{
-   color: var(--primary-color);
-   display: block;
+.heading {
+  color: var(--primary-color);
+  display: block;
   font-size: 2.5rem;
-  
 }
-.description{
-    font-size: large;
-    margin: 1rem;
+.description {
+  font-size: 1.5rem;
+  margin: 1rem;
 }
-.change-table{
-    margin: auto;
+.input-label {
+  display: block;
+  font-size: larger;
+  font-weight: bold;
+  margin: 1rem;
+}
+.input {
+  border: 2px solid var(--primary-color);
+  width: 12%;
+  padding: 0.5rem;
+}
+#check-button {
+  margin: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem;
+  font-size: large;
+}
+
+.change-table {
+  margin: auto;
+}
+.change-table caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+th,
+td {
+  border: 2px solid var(--primary-color);
+  padding: 0.5rem;
 }
