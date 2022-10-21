@@ -35,6 +35,7 @@
 
 .change-table {
   margin: auto;
+  border-collapse: collapse;
 }
 .change-table caption {
   font-size: 1.5rem;
